@@ -1,0 +1,24 @@
+/*
+
+  이미지 아이콘 사용법을 보여드리기 위한 샘플 코드를 만드는 과정에서 간단하게 작성한 코드이니, 원하신다면 삭제하고 작업하셔도 됩니다.
+
+*/
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: black;
+}
+
+header {
+  height: 60px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
