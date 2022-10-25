@@ -1,24 +1,103 @@
-/*
-
-  이미지 아이콘 사용법을 보여드리기 위한 샘플 코드를 만드는 과정에서 간단하게 작성한 코드이니, 원하신다면 삭제하고 작업하셔도 됩니다.
-
-*/
-
 html, body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: black;
+  width: 1280px;
+  min-height: 100vh;
 }
 
 header {
-  height: 60px;
+  height: 330px;
+  background-color: black;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.flex-container {
+.bar {
   display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+  color: white;
+}
+
+.bar-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+  width: 70%;
+}
+
+.bar-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+}
+
+#news {
+  opacity: 0.6;
+}
+
+.header-main {
+  display: flex;
+  height: 300px;
+  color: white;
+}
+
+.header-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  font-size: 14px;
+  width: 35%;
+  margin: 0px 0px 20px 30px;
+}
+
+
+.header-side-list {
+  display: inline;
+}
+#icon-share {
+  margin: 5px 0px 0px 5px;
+}
+
+.header-text {
+  position: relative;
+  width: 65%;
+}
+
+.header-box {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 70px;
+}
+
+.header-box-text {
+  border: 1px solid rgba(246, 242, 242, 0.6);
+  border-radius: 25px;
+  margin: 10px 5px 10px 0px;
+  padding: 5px 10px;
+}
+
+.header-text-h1 {
+  position: absolute;
+  bottom: 20px;
+  font-size: 55px;
+  font-weight: 500;
+}
+
+main {
+  background-color: white;
+}
+
+.main-section-1 {
+  display: flex;
+}
+
+.main-blank {
+  width: 35%;
+}
+
+.main-article {
+  width: 65%;
 }
