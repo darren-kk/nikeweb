@@ -7,8 +7,8 @@ html, body {
 }
 
 header {
-  height: 360px;
   background-color: black;
+  height: 360px;
 }
 
 .bar {
@@ -38,17 +38,17 @@ header {
 
 .header-main {
   display: flex;
-  height: 300px;
   color: white;
+  height: 300px;
 }
 
 .header-side {
   display: flex;
   justify-content: flex-start;
   align-items: end;
+  margin: 0px 0px 5px 30px;
   font-size: 14px;
   width: 35%;
-  margin: 0px 0px 5px 30px;
 }
 
 
@@ -66,18 +66,18 @@ header {
 }
 
 .header-box {
-  position: absolute;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position: absolute;
   top: 70px;
 }
 
 .header-box-text {
-  border: 1px solid rgba(246, 242, 242, 0.6);
-  border-radius: 25px;
   margin: 10px 5px 10px 0px;
   padding: 5px 10px;
+  border: 1px solid rgba(246, 242, 242, 0.6);
+  border-radius: 25px;
 }
 
 .header-text-h1 {
@@ -107,14 +107,14 @@ main {
 }
 
 .main-article-title {
+  margin: 30px 0px;
   font-size: 20px;
   font-weight: 500;
-  margin: 30px 0px;
 }
 
 .main-article-introduction {
-  list-style: inside;
   margin: 25px 0px;
+  list-style: inside;
   text-indent: -25px;
   padding-left: 25px;
 }
@@ -134,9 +134,9 @@ li {
 .main-photos-title {
   display: flex;
   justify-content: space-between;
+  margin: 50px 33px 0px 35px;
   font-size: 25px;
   font-weight: 500;
-  margin: 50px 33px 0px 35px;
 }
 
 .main-photos-assets {
@@ -145,8 +145,8 @@ li {
   align-items: center;
   margin: 10px 5px 10px 0px;
   padding: 10px 25px;
-  border-radius: 25px;
   font-size: 15px;
+  border-radius: 25px;
   background-color: black;
   color: white;
 }
@@ -163,18 +163,18 @@ li {
 .main-photos-size {
   position: relative;
   left: 30px;
+  margin: 8px 8px;
   width: 286px;
   height: 433px;
-  margin: 8px 8px;
 }
 
 .main-section-3 {
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding-left: 50px;
   background-color: rgb(245,245,245);
+  height: 600px;
 }
 
 .main-readmore-title, .main-readmore-photos-text {
@@ -185,15 +185,15 @@ li {
 .main-readmore {
   display: flex;
   flex-direction: row;
-  width: 1200px;
   justify-content: space-between;
   margin-bottom: 80px;
+  width: 1200px;
 }
 
 .main-readmore-photos-size {
+  margin: 0px 20px 20px 0px;
   width: 380px;
   height: 254px;
-  margin: 0px 20px 20px 0px;
 }
 
 .main-readmore-phots-1, .main-readmore-phots-2, .main-readmore-phots-3 {
@@ -202,16 +202,16 @@ li {
 }
 
 .main-readmore-photos-release {
-  opacity: 0.5;
   margin-bottom: 20px;
+  opacity: 0.5;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 280px;
   color: white;
+  height: 280px;
 }
 
 .footer-upper {
@@ -226,10 +226,10 @@ footer {
 }
 
 .footer-icons-size {
-  background-color: rgb(45,45,45);
-  border-radius: 50%;
   margin: 20px 5px;
   padding: 3px;
+  border-radius: 50%;
+  background-color: rgb(45,45,45);
 }
 
 .footer-low {
